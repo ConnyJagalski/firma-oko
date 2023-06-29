@@ -15,7 +15,11 @@ body {
 }
 
 header {
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 0.5rem 0;
+}
+
+h1 {
+  margin: 0.5rem;
 }
 
 h2 {
@@ -49,16 +53,16 @@ button {
 
 .first-button {
   border-color: red;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 iframe {
   height: calc(8rem + 2vw);
   width: calc(16rem + 2vw);
-  margin: 1rem;
+  margin: 0.5rem;
   border-radius: 1rem;
 }
 
 .kontakt-button {
-  margin: 1rem;
+  margin: 0.3rem;
 }
