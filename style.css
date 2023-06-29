@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 120%;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+header {
+  margin: 1rem 0 2rem 0;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 90%;
+  margin-inline: 0.5rem;
+}
+
+i {
+  padding-right: 0.5rem;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  color: black;
+}
+
+button {
+  all: unset;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgb(114, 110, 110);
+}
+
+.first-button {
+  border-color: red;
+  margin-bottom: 2rem;
+}
+
+iframe {
+  height: calc(8rem + 2vw);
+  width: calc(16rem + 2vw);
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.kontakt-button {
+  margin: 1rem;
+}
